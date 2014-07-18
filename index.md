@@ -22,8 +22,8 @@ The site [http://css.barkspy.mattrude.com/](http://css.barkspy.mattrude.com/) is
 
 This update is focused on css updates. With this update the site should be <a href="http://en.wikipedia.org/wiki/Responsive_web_design">responsive</a>.
 
-* **7dd49f0** - Added favicon.ico <img src="https://raw.githubusercontent.com/mattrude/barkspy/master/favicon.ico?token=88956__eyJzY29wZSI6IlJhd0Jsb2I6bWF0dHJ1ZGUvYmFya3NweS9tYXN0ZXIvZmF2aWNvbi5pY28iLCJleHBpcmVzIjoxNDA1ODI5ODkyfQ%3D%3D--4db0ca58145e1c27edd4c724077f36622f643db4" alt="favicon.ico" title="" />
-* **e951f17** - Updated base.css to a [LESS](http://lesscss.org/) file - [patch](./e951f17.patch)
+* **7dd49f0** - Added favicon.ico
+* **e951f17** - Updated base.css to a [LESS](http://lesscss.org/) file
 
 ## jekyll.barkspy.mattrude.com
 
