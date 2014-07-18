@@ -8,14 +8,14 @@ permalink: /faq/
 <ul>
 {% for list in site.data.faq %}
     <li>
-        Q: {{ list.question }}
+        <strong>Q:</strong> {{ list.question }}
     </li>
     <div class="row">
         <a href="#hide{{ line }}" class="hide" id="hide{{ line }}" color="white" >Answer...</a>
         <a href="#show{{ line }}" class="show" id="show{{ line }}">Hide...</a>
         <br />
         <div class="elist">
-            A: {{ list.answer }}
+            <strong>A:</strong> {{ list.answer }}
         </div>
     </div>
     {% capture line %}{{ line | plus: '1' }}{% endcapture %}
