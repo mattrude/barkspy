@@ -1,0 +1,21 @@
+# Site settings
+title: Barkspy
+email: admin@barkspy.com
+description: ""
+baseurl: ""
+url: ""
+
+# Analytics settings
+#gauges_id: 
+#google_analytics_id: 
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+exclude:
+- README.md
+
+gems:
+ - jekyll-sitemap
+ - jekyll-less
