@@ -3,68 +3,21 @@ layout: default
 title: Things you will need to get
 permalink: /getthese/
 ---
-                                        <ul>
-                                            <li>An Android device with OS version 4.2 (Jelly Bean) or greater</li>
-                                        </ul>
-                                        <div class="row">
-                                        <a href="#hide1" class="hide" id="hide1" color="white" >Show me...</a>
-                                        <a href="#show1" class="show" id="show1">Hide it...</a>
-                                        <div class="elist">
-                                        <ul>
-                                            <li>Inexpensive example devices:</li>
-                                            <ul>
-                                                <li>Azpen a700 (~ $40-$70)</li>
-                                                <li>iView 420tpc (~ $30-$40)</li>
-                                            </ul>
-                                            <li>
-                                                <notetext> TIP - If you have an older tablet or smartphone, it may work as well as long as it runs Android OS 4.2 or higher. You may need to upgrade your device(s) if they run an older version of Android OS. You can upgrade by going to Settings on your device and choosing an updare OS option - these are different on different devices. Please keep in mind that not all devices can be upgraded. If upgrading seems like too much hassle to you, spending $30 - $40 on a device that's guaranteed to work might be well worth it. </notetext>
-                                            </li>
-                                        </ul>
-                                        </div>
-                                        </div>
-                                       
-                                            
-                                        <li> Speakers that project voice without distortion </li>
-                                        <div class="row">
-                                        <a href="#hide2" class="hide" id="hide2" color="white" >Show me...</a>
-                                        <a href="#show2" class="show" id="show2">Hide it...</a>
-                                        <div class="elist">
-                                        <ul>
-                                            <li> Inexpensive example devices:</li>
-                                            <ul>  
-                                            <li>Logitech Z313 (~ $20-$30)</li>
-                                            <li>HMDX Audio Burst HX-P130GY (~ $15-$20)</li>
-                                            </ul>
-                                            <li>Other reasonable quality speakers - e.g. home theater system, computer speakers with subwoofer, other good quality portable or stationary speakers.</li>
-                                            
-                                            <li><notetext>TIP - (1) Speakers that are built-in to the Android device are not sufficient. (2) Super high quality (and price!) speakers like Bose are nice and would work fine but are not strictly necessary. (3) If you buy a Bluetooth speaker, make sure it can also be connected with a 1/8 inch audio jack cable to the tablet. (4) If you want to use a portable speaker that runs on batteries, make sure that the battery life is longer than the maximum monitoring time with BarkSpy. We found that in general wired speakers that can be plugged into an electrical outlet (e.g. Logitech Z313) are the most reliable for this application. (5) If you are feeling adventurous and green, you could try to connect the portable speakers to a solar panel if it has a rechargeable battery. </notetext></li>
-                                            
-                                        </ul>
-                                        </div>
-                                        </div>
-                                        
-                                            
-                                        <li> BarkSpy App from Google Play </li>
-                                        <div class="row">
-                                        <a href="#hide3" class="hide" id="hide3" color="white" >Show me...</a>
-                                        <a href="#show3" class="show" id="show3">Hide it...</a>
-                                        <div class="elist">
-                                        <ul>
-                                            <li>Free trial version (limited to 60 mins of monitoring) </li>
-                                            <li>Unlimited version ($1.99)</li>
-                                        </ul>
-                                        </div>
-                                        </div>
-                                            
-                                        <li> Dog quiet when you are home and barking madly after you are gone. </li>
-                                        <div class="row">
-                                        <a href="#hide4" class="hide" id="hide4" color="white" >Show me...</a>
-                                        <a href="#show4" class="show" id="show4">Hide it...</a>
-                                        <div class="elist">
-                                        <ul>
-                                            <ul>
-                                                <li>You guessed it - {Priceless!}</li>
-                                            </ul>
-                                        </ul>
-                                        </div>
-                                        </div>
+
+{% assign line= '1' %}
+<ul>
+{% for list in site.data.getthese %}
+    <li>
+        {{ list.question }}
+    </li>
+    <div class="row">
+        <a href="#hide{{ line }}" class="hide" id="hide{{ line }}" color="white" >Answer...</a>
+        <a href="#show{{ line }}" class="show" id="show{{ line }}">Hide...</a>
+        <br />
+        <div class="elist">
+            {{ list.answer }}
+        </div>
+    </div>
+    {% capture line %}{{ line | plus: '1' }}{% endcapture %}
+{% endfor %}
+</ul>
