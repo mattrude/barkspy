@@ -1,7 +1,23 @@
-        <ul id="menu">
-            <li><a href="/faq">FAQ</a></li>
-            <li><a href="/ourstory">Our Story</a></li>
-            <li><a href="/howitworks">Do This</a></li>
-            <li><a href="/getthese">Get These</a></li>
-            <li><a href="/">Home</a></li>
-        </ul>
+    <!-- Start Menu Section -->
+    <ul id="menu">
+  {% for section in site.data.menu %}
+  {% assign item_url = section.item | prepend:"/" | append:"/" %}
+
+  {% if item_url == page.url %}
+    {% assign menubefore = "<span id='menuselected'>" %}
+    {% assign menuafter = "</span>" %}
+  {% else %}
+    {% assign menubefore = "" %}
+    {% assign menuafter = "" %}
+  {% endif %}
+
+  {% for p in site.pages %}
+    {% if p.url == item_url %}
+      <li><a href="{{ site.url }}{{ p.url }}">{{ menubefore }}{{ section.title }}{{ menuafter }}</a></li>
+    {% endif %}
+  {% endfor %}
+
+  {% endfor %}
+    <li><a href="/">Home</a></li>
+    </ul>
+    <!-- End Menu Section-->
