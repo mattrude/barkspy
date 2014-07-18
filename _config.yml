@@ -4,6 +4,7 @@ email: admin@barkspy.com
 description: ""
 baseurl: ""
 url: ""
+permalink: /news/:year/:month/:day/:title/
 
 # Analytics settings
 #gauges_id: 
