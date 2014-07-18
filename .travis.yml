@@ -14,9 +14,7 @@ rvm:
 - 2.1.1
 env:
   global:
-  - secure: aVW1mouCfyDP3k1H1dt2cv+8cWnnBpjuRXoyT6OK8tynmG6+BZzdOFKJlxXpAdoQMVfynTxag2EdxKlHnmj5QLH6euTzqUX1/V3DbuK2VWSD7/Rty0R/1VtbpynBRZradNqaMQ0Cn1QFszmKrExERWVtKYpITWDTvlzewc1JegI=
-  - secure: UWs684VeFVbiqkNvPJhTLD1ay6q5CkwOOWCylC3SzG2t9+3MV1nIwBtOEOXH556vLcwe7S7OwZUmgHKcUeHdGVNLuNJDpTyPb8AevZFXUj0V1cDfnl2+ephCW0kk4NOFxgwgjVvzj1aUCBzQ2GaKysNYKxMF4C1i3vAfY0aVmRM=
-  - S3_REGION=us-east-1
-  - S3_BUCKET_NAME=barkspy
+  - S3_REGION: us-east-1
+  - S3_BUCKET_NAME: barkspy
   - secure: NwRTJHFF5FUpUXVQ2B39ZzF+UEhUwpBIW26UALWyjMgqHxg4BsVoMhVQHg0nJjHoax1sLt2yXOw725Yrdt73I992i2fDubokzUB+GDrO0tCOu3vLTbSKcGkb2D30R2tM1KwiNiAkugtNrrAnlYtUo4E1aIC6zZMCJmu/g4bqrYw=
   - secure: 5TkvND/A/IxX4CuXmj1176vav5kpi5f7twUTSl1UIE6hFNy6pfWZLSvfxNSJaeDEhQOTTEkdKYbzzX0SW47nG/WtofyAhb4EGVNp0PgAVIlwgFraCmv/6djZs22hxrQyphzZkmYU4nFGKr9tehu6zemGafK378WmZSu+FjBKG9A=
