@@ -25,5 +25,9 @@ This update is focused on css updates. With this update the site should be <a hr
 * **7dd49f0** - Added favicon.ico <img src="https://raw.githubusercontent.com/mattrude/barkspy/master/favicon.ico?token=88956__eyJzY29wZSI6IlJhd0Jsb2I6bWF0dHJ1ZGUvYmFya3NweS9tYXN0ZXIvZmF2aWNvbi5pY28iLCJleHBpcmVzIjoxNDA1ODI5ODkyfQ%3D%3D--4db0ca58145e1c27edd4c724077f36622f643db4" alt="favicon.ico" title="" />
 * **e951f17** - Updated base.css to a [LESS](http://lesscss.org/) file - [patch](./e951f17.patch)
 
+## jekyll.barkspy.mattrude.com
+
+The site [http://jekyll.barkspy.mattrude.com](http://jekyll.barkspy.mattrude.com) is a major change in the way the page is built. the source in this branch no long is a working website, but instead a true source directory.  You must use [Jekyll](http://jekyllrb.com) to build the site, but after the site is built, the server only servers static sites.
+
 ----
 Updated: {{ site.time | date: "%m-%d-%Y" }} by [Matt Rude](http://mattrude.com).
