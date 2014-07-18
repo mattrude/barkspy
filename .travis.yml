@@ -5,7 +5,6 @@ before_install:
   - gem install therubyracer
   - gem install jekyll 
   - gem install jekyll-less 
-  - gem install jekyll-press 
   - gem install jekyll-sitemap
 script: jekyll build -d _site
 rvm:

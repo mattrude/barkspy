@@ -1,4 +1,7 @@
 # BarkSpy Site Source
+[![Build Status](https://travis-ci.org/mattrude/barkspy.svg?branch=jekyll)](https://travis-ci.org/mattrude/barkspy)
+
+https://travis-ci.org/jekyll/jekyll.svg?branch=excise-reads
 
 This is the source for the barkspy website found at http://barkspy.com
 
