@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Matt's {{ site.github.project_title }} Build Notes
+title: Matt's Barkspy Build Notes
 overview: true
 ---
 
-# Matt's {{ site.github.project_title }} Build Notes
+# Matt's Barkspy Build Notes
 
 You may download the changes via git using the command `git clone http://barkspy.mattrude.com/barkspy.git`
 
