@@ -17,5 +17,9 @@ env:
   global:
   - S3_REGION: us-east-1
   - S3_BUCKET_NAME: barkspy
-  - secure: 2PCzB2DiMh0wkE3ax4pJxCLQdYtFfMUZLg8jVWi9Di8MB1BJMDoEJ/c0hCPA+SLN9pObLKsXudTJucyzDRc+k8eYiOW7rfHAzen0so+77KSJWUpLvBMDaUf9I/RPysCpeoGnwmqmRhKCAP4MB1yu/mMm7/vnRtcHq1dq3heaD5E=
-  - secure: dt649reD2myIrRJIYEzLddtB0beHBYJHqlzmH8YbDIHhwYGIyGkiRu0dMSJFWAXgxBSrobdXJtTg12OfKJ2OqSMsa3XkaELw67tmjCzTpdCraz5nyyUeD09+VhH+u5uXCXzx2YSNcQEiqy3UiCKEC+8KeQlFwDV+dS6Df/lGQQo=
+deploy:
+  secret_access_key: 
+  access-key-id:
+    secure: 2uF61VgEWSfXZOl+/idkOOpDkI3p9dR24rnTA3Uoy5CSs12vMdzVj+Ljp5Nb1QvSrX76VSuUc2IYKphk1wO+2CGbNvM5q2qB1CyvZw9A6Z3w0FLOI7KihO2njZ9wK3cpCFdAstPDqVoD4oUcLWoF6mbRpGqSUbo3NOL5aYhy2T8=
+  secret-access-key:
+    secure: MbEoKxYnqX783IAVoHwgtihf/WGJGyURBvlzzufCXXsShN3UqzOScbNmmGlUhjeJEuzv+oGm7sn/niKTmO/9fmAP7H6JNB1FfFO0HYtyHxv8W5A9kqqiHVW0p/epFcXyhl2QxCWi1AgKYrfTqYg+G6fXgHCR7SEw5e/EhST+QyM=
