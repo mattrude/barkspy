@@ -7,6 +7,7 @@ before_install:
 - gem install jekyll
 - gem install jekyll-less
 - gem install jekyll-sitemap
+- gem install jekyll-press
 - export S3_CREDENTIALS="${S3_ACCESS_KEY_ID}:${S3_SECRET_KEY}"
 script: jekyll build -d _site
 after_success: travis_retry s3_website push
@@ -16,5 +17,9 @@ env:
   global:
   - S3_REGION: us-east-1
   - S3_BUCKET_NAME: barkspy
-  - secure: NwRTJHFF5FUpUXVQ2B39ZzF+UEhUwpBIW26UALWyjMgqHxg4BsVoMhVQHg0nJjHoax1sLt2yXOw725Yrdt73I992i2fDubokzUB+GDrO0tCOu3vLTbSKcGkb2D30R2tM1KwiNiAkugtNrrAnlYtUo4E1aIC6zZMCJmu/g4bqrYw=
-  - secure: 5TkvND/A/IxX4CuXmj1176vav5kpi5f7twUTSl1UIE6hFNy6pfWZLSvfxNSJaeDEhQOTTEkdKYbzzX0SW47nG/WtofyAhb4EGVNp0PgAVIlwgFraCmv/6djZs22hxrQyphzZkmYU4nFGKr9tehu6zemGafK378WmZSu+FjBKG9A=
+deploy:
+  secret_access_key: 
+  access-key-id:
+    secure: 2uF61VgEWSfXZOl+/idkOOpDkI3p9dR24rnTA3Uoy5CSs12vMdzVj+Ljp5Nb1QvSrX76VSuUc2IYKphk1wO+2CGbNvM5q2qB1CyvZw9A6Z3w0FLOI7KihO2njZ9wK3cpCFdAstPDqVoD4oUcLWoF6mbRpGqSUbo3NOL5aYhy2T8=
+  secret-access-key:
+    secure: MbEoKxYnqX783IAVoHwgtihf/WGJGyURBvlzzufCXXsShN3UqzOScbNmmGlUhjeJEuzv+oGm7sn/niKTmO/9fmAP7H6JNB1FfFO0HYtyHxv8W5A9kqqiHVW0p/epFcXyhl2QxCWi1AgKYrfTqYg+G6fXgHCR7SEw5e/EhST+QyM=
