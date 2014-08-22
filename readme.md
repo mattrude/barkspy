@@ -22,6 +22,9 @@ A simple script would be
     jekyll build -s /var/src/barkspy -d /var/www/barkspy.com -q && \
     rm -rf /var/src/barkspy
 
+## Issues
+If you find a issue with the site, you may submit a ticket via [bitbuckets.org issues manager](https://bitbucket.org/mattrude/barkspy/issues?status=new&status=open).
+
 ## Installing Jekyll
 Since Jekyll only needs to be installed on your build system. Below are a few quick how-to's how setting up your build system.
 
@@ -52,4 +55,3 @@ After installing Ruby via the [Ruby Installer](http://rubyinstaller.org/download
 1. Open a command prompt, change into the directory that you extracted the content of the Development Kit to and run the command: `rake devkit sfx=1`.
 
 ### Installing Ruby on OSX
-
