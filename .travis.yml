@@ -16,5 +16,5 @@ env:
   global:
   - S3_REGION: us-east-1
   - S3_BUCKET_NAME: barkspy
-  - secure: NwRTJHFF5FUpUXVQ2B39ZzF+UEhUwpBIW26UALWyjMgqHxg4BsVoMhVQHg0nJjHoax1sLt2yXOw725Yrdt73I992i2fDubokzUB+GDrO0tCOu3vLTbSKcGkb2D30R2tM1KwiNiAkugtNrrAnlYtUo4E1aIC6zZMCJmu/g4bqrYw=
-  - secure: 5TkvND/A/IxX4CuXmj1176vav5kpi5f7twUTSl1UIE6hFNy6pfWZLSvfxNSJaeDEhQOTTEkdKYbzzX0SW47nG/WtofyAhb4EGVNp0PgAVIlwgFraCmv/6djZs22hxrQyphzZkmYU4nFGKr9tehu6zemGafK378WmZSu+FjBKG9A=
+  - secure: AWifobSWPzSaee5S2Tdcy+71p8Dyz514gSx9bInjpHaNgJfP7nwVX/tSQAcHr+7LPqYTkP/ltqa+EyhGrvwzf3/6qm0i2gO5qfb2RogNeH5Qc+x4ldgvCfGNKkaulq0lZpHpW/onzsfVoHdfSSlXOGK8tO6WKgrWTcfpF78qgpU=
+  - secure: qbZacnFgR5l09t7cItSDUDsIRWYVxTMFHE07Cjk3OY3mDuUvWv3WsIcaheZVifKn/omr9E4sDbcKSRTeXOG+V3YlSXn3E+yrmGoQVrAlKdc7V9VRPzhmLOC8tLzXB9BjCMu9temk861Pg/ZBtHE7b/DlmohJCya27mj0qk0cua8=
