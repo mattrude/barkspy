@@ -16,5 +16,13 @@ env:
   global:
   - S3_REGION: us-east-1
   - S3_BUCKET_NAME: barkspy
-  - secure: AWifobSWPzSaee5S2Tdcy+71p8Dyz514gSx9bInjpHaNgJfP7nwVX/tSQAcHr+7LPqYTkP/ltqa+EyhGrvwzf3/6qm0i2gO5qfb2RogNeH5Qc+x4ldgvCfGNKkaulq0lZpHpW/onzsfVoHdfSSlXOGK8tO6WKgrWTcfpF78qgpU=
-  - secure: qbZacnFgR5l09t7cItSDUDsIRWYVxTMFHE07Cjk3OY3mDuUvWv3WsIcaheZVifKn/omr9E4sDbcKSRTeXOG+V3YlSXn3E+yrmGoQVrAlKdc7V9VRPzhmLOC8tLzXB9BjCMu9temk861Pg/ZBtHE7b/DlmohJCya27mj0qk0cua8=
+deploy:
+  provider: s3
+  access_key_id: AKIAI7RRWEDYXXMYXK4A
+  secret_access_key:
+    secure: itRD152Kwhv5K9Qvzi2INn7fMFWa32h/JGUllsN1MWTraMGxWO7nn9Aim/FVak4jT9I6irzcyZ8Eh3a1DxP/jiYqyU7ur7ELSgf/Ofdakz8lRb+0Uwf4C/2jsdi+HY2WcrkeJt7ngJKQ/dqnTIKiEw4gblfpczHgD0oWrMjFsug=
+  bucket: barkspy
+  acl: public_read
+  on:
+    repo: mattrude/barkspy
+    branch: jekyll-lists
