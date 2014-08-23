@@ -16,7 +16,7 @@ deploy:
   provider: s3
   access_key_id: AKIAI7RRWEDYXXMYXK4A
   secret_access_key:
-    secure: itRD152Kwhv5K9Qvzi2INn7fMFWa32h/JGUllsN1MWTraMGxWO7nn9Aim/FVak4jT9I6irzcyZ8Eh3a1DxP/jiYqyU7ur7ELSgf/Ofdakz8lRb+0Uwf4C/2jsdi+HY2WcrkeJt7ngJKQ/dqnTIKiEw4gblfpczHgD0oWrMjFsug=
+    secure: juIteKwjQ97Dz3+3KALdmb71tc5yohQrv8zvQYpyZyYJH7GGCOgcDSzEcNIkdLC67DcuWYf0isayZInuwikcDuRXKwYv3Teh/N/dG7v27d24rH2wsuD+6qFsbEeW5Uq7fvbO5+5X1q2Q2dk4sY3mN9GHpN+onzWgIqozKgcaM6I=
   bucket: barkspy
   acl: public_read
   on:
