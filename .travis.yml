@@ -12,10 +12,6 @@ script: jekyll build -d _site
 after_success: travis_retry s3_website push
 rvm:
 - 2.1.1
-env:
-  global:
-  - S3_REGION: us-east-1
-  - S3_BUCKET_NAME: barkspy
 deploy:
   provider: s3
   access_key_id: AKIAI7RRWEDYXXMYXK4A
@@ -25,4 +21,4 @@ deploy:
   acl: public_read
   on:
     repo: mattrude/barkspy
-    branch: jekyll-lists
+    branch: jekyll
